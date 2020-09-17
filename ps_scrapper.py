@@ -84,8 +84,6 @@ while True:
             f.write(textwrap.fill(("Game Description - " + '\n' + lower_class_des), 100))
             f.write(new_line)
             f.write(straight_line)
-            f.write(new_line)
-            f.write(straight_line)
             f.close()
     except requests.exceptions.MissingSchema or requests.exceptions.InvalidSchema:
         print("Enter correct playstore app url")
